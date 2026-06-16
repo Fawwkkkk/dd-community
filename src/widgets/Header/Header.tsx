@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { UserMenu } from "@/features/auth/ui/user-menu";
 
 export default function Header() {
     return (
@@ -32,10 +33,7 @@ export default function Header() {
                     </Link>
                 </nav>
 
-                {/* Кнопка логина */}
-                <button className="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium">
-                    Login
-                </button>
+                <UserMenu />
             </div>
         </header>
     );
