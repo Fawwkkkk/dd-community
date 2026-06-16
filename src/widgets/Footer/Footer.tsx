@@ -6,7 +6,7 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-zinc-400">
                     <p>© 2026 DD Dynasty. Все права защищены.</p>
                     <div className="flex gap-4">
-                        <a href="#" className="hover:text-white transition">Discord</a>
+                        <a href="https://discord.gg/XW66nBPxM2" target="_blank" className="hover:text-white transition">Discord</a>
                         <a href="#" className="hover:text-white transition">Twitter</a>
                         <a href="#" className="hover:text-white transition">GitHub</a>
                     </div>
